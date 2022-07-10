@@ -1,7 +1,7 @@
 const cardsUL = document.querySelector(".cards");
 
 for (let i = 0; i < data.length; i++) {
-  console.log("Pokemon at i", data[i]);
+  // console.log("Pokemon at i", data[i]);
   const pokemon = data[i];
   const cardLI = document.createElement('li')
   cardLI.classList.add('card')
@@ -27,15 +27,15 @@ for (let i = 0; i < data.length; i++) {
 
 
 // create heading
-const title = document.createElement('h2')
+//const title = document.createElement('h2')
 // add CSS class
-title.classList.add('card--title')
+//title.classList.add('card--title')
 
 // set the text
 // title.innerText = pokemon.name
 
 // add the title into the card
-cardLI.append(title)
+//cardLI.append(title)
 
 
 
